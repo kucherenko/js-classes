@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>JS Classes</title>
+  </head>
+  <body onerror="handleError()">
+    <script type="text/javascript">
+      window.onerror = function () {
+        console.log('window onerror');
+        console.log(arguments);
+      };
+
+      function handleError() {
+        console.log('body onerror');
+        console.log(arguments);
+      }
+    </script>
+    <script src="/src/error.js" charset="utf-8"></script>
+  </body>
+</html>
