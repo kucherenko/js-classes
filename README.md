@@ -14,5 +14,17 @@ npm install
 ```
 npm run build
 ```
+### Run http server
 
-Check `lib/` folder for js after `npm run build`
+```
+npm run server
+```
+
+### Build code for browser
+
+```
+npm run browserify
+```
+
+
+Check `lib/` folder for js after `npm run build`, `npm run browserify` and `npm run server`
