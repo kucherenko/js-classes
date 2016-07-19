@@ -1,7 +1,16 @@
-import * as angular from 'angular';
+import "babel-polyfill";
 
-angular.module('app', []).controller('MyConroller', ($scope) => {
-  let name = 'Angular';
-  $scope.framework = name;
-  console.log($scope + name);
-});
+function* gen() {
+  for (let z of [1,2,3]) {
+    yield z;
+  }
+  return "ZZZ";
+}
+
+let g = gen();
+console.log(g.next());
+console.log(g.next());
+console.log(g.next());
+console.log(g.next());
+console.log(g.next());
+console.log(g.next());

@@ -1,7 +1,7 @@
 {
-  "name": "lesson-3",
+  "name": "lesson-4",
   "version": "1.0.0",
-  "description": "Demo bootstrap for lesson 3 for js course",
+  "description": "Demo bootstrap for lesson 4 for js course",
   "main": "src/index.js",
   "dependencies": {
     "angular": "^1.5.7"
@@ -18,7 +18,7 @@
   "scripts": {
     "build": "babel src -d lib",
     "preserver": "npm run browserify",
-    "server": "budo src/index.js:lib/boundle.js -p 8080 --live --open --watch-glob **/*.{html,css,js} -- -d -t [ babelify --comments false ]",
+    "start": "budo src/index.js:lib/boundle.js -p 8080 --live --open --watch-glob **/*.{html,css,js} -- -d -t [ babelify --comments false ]",
     "browserify": "browserify -o lib/boundle.js -d -e src/index.js -t [ babelify --comments false ]",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
