@@ -1,6 +1,7 @@
 import * as angular from 'angular';
 
-angular.module('HolaApp', []).controller('MyController', function($scope) {
-  this.fName  = 'Angular';
-  $scope.framework = 'Angular';
-});
+import {Task1Controller} from './tasks/Task1Controller'
+
+let HolaApp = angular.module('HolaApp', [])
+
+HolaApp.controller('Task1Controller', Task1Controller)
