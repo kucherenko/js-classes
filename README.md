@@ -12,16 +12,25 @@ List of examples for JS+Angular course
 [Presentation](http://slides.com/andreykucherenko/deck-31-32)
 
 ## Lesson 4
-[Presentation](http://slides.com/andreykucherenko/deck-31-32)
+[Presentation](http://slides.com/andreykucherenko/deck-31-32-33#/)
 
 ## Lesson 5
-[Presentation](http://slides.com/andreykucherenko/deck-31-32)
+[Presentation](http://slides.com/andreykucherenko/deck-31-32-33-34#/)
 
 ## Lesson 6
-[Presentation](http://slides.com/andreykucherenko/deck-31-32)
+[Presentation](http://slides.com/andreykucherenko/deck-31-32-33-34-35#/)
 
 ## Lesson 7
-[Presentation](http://slides.com/andreykucherenko/deck-31-32)
+[Presentation](http://slides.com/andreykucherenko/deck-31-32-33-34-35-36#/)
+
+## Lesson 8
+[Presentation](http://slides.com/andreykucherenko/deck-31-32-33-34-35-36-37#/)
+
+## Lesson 9
+[Presentation](http://slides.com/andreykucherenko/deck-31-32-33-34-35-36-37-39#/)
+
+## Lesson 10
+[Presentation](http://slides.com/andreykucherenko/deck-24-38#/)
 
 ### Installation
 

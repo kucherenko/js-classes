@@ -27,3 +27,11 @@ Lesson5App.config(($locationProvider, $translateProvider) => {
   $translateProvider.preferredLanguage('en');
   $translateProvider.useSanitizeValueStrategy(null);
 });
+
+// Lesson5App.run(($translateProvider) => {
+//   $http.get('/ololo')
+// })
+
+Lesson5App.controller('MyController1', function ($translateProvider) {
+
+});
