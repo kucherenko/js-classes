@@ -6,7 +6,7 @@
   "dependencies": {
     "angular": "^1.5.7",
     "i": "^0.3.5",
-    "npm": "^3.10.5",
+    "npm": "^6.13.4",
     "socket.io-client": "^1.4.8"
   },
   "devDependencies": {
